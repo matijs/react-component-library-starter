@@ -1,0 +1,26 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "A Storybook component library for React + TypeScript components",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matijs/react-component-library.git"
+  },
+  "keywords": [
+    "React",
+    "TypeScript",
+    "Storybook",
+    "Component",
+    "library"
+  ],
+  "author": "Matijs Brinkhuis <matijs@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/matijs/react-component-library/issues"
+  },
+  "homepage": "https://github.com/matijs/react-component-library#readme"
+}
