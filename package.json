@@ -4,7 +4,9 @@
   "description": "A Storybook component library for React + TypeScript components",
   "main": "dist/index.js",
   "scripts": {
+    "build-storybook": "build-storybook -c .storybook -o ./public",
     "lint": "eslint --ext ts,tsx ./src",
+    "start": "start-storybook",
     "test": "jest"
   },
   "repository": {
@@ -28,11 +30,15 @@
     "classnames": "^2.2.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@storybook/react": "^5.2.6",
     "@types/classnames": "^2.2.9",
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.7.1",
     "eslint-plugin-react": "^7.16.0",
     "prettier": "^1.19.1",
