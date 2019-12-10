@@ -1,6 +1,6 @@
 {
   "include": ["src/components/**/*"],
-  "exclude": ["node_modules", "**/*.stories.tsx"],
+  "exclude": ["node_modules", "**/*.stories.tsx", "**/__tests__"],
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
