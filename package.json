@@ -4,9 +4,10 @@
   "description": "A Storybook component library for React + TypeScript components",
   "main": "dist/index.js",
   "scripts": {
+    "prebuild-storybook": "rm -rf ./public",
     "build-storybook": "build-storybook -c .storybook -o ./public",
     "lint": "eslint --ext ts,tsx ./src",
-    "start": "start-storybook",
+    "start": "start-storybook -p 9000 --ci",
     "test": "jest"
   },
   "repository": {
@@ -42,6 +43,7 @@
     "@typescript-eslint/parser": "^2.11.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
@@ -51,6 +53,9 @@
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"
   },
