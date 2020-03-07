@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "react-component-library-starter",
   "version": "1.0.0",
   "description": "A Storybook component library for React + TypeScript components",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "Component",
     "library"
   ],
-  "author": "Matijs Brinkhuis <matijs@gmail.com>",
+  "author": "Matijs <matijs@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/matijs/react-component-library/issues"
@@ -41,13 +41,14 @@
     "@types/react-dom": "^16.9.4",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.3.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
     "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
@@ -57,6 +58,7 @@
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.1",
     "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.7.3"
   },
   "peerDependencies": {

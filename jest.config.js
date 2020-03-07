@@ -7,8 +7,5 @@ module.exports = {
     rootDir: './src',
     setupFilesAfterEnv: ['<rootDir>/__tests__/jest.setup.ts'],
     snapshotSerializers: ['enzyme-to-json/serializer'],
-    testPathIgnorePatterns: [
-        '/node_modules/',
-        'jest.setup.ts',
-    ],
+    testPathIgnorePatterns: ['/node_modules/', 'jest.setup.ts'],
 };

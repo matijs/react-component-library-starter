@@ -8,6 +8,8 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
+        'plugin:react/recommended',
+        'plugin:prettier/recommended',
     ],
     globals: {
         Atomics: 'readonly',
@@ -27,8 +29,5 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
-        '@typescript-eslint/explicit-function-return-type': 'off',
-        'react/jsx-uses-react': 'error',
-        'react/jsx-uses-vars': 'error',
     },
 };
