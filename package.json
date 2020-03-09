@@ -4,8 +4,8 @@
   "description": "A Storybook component library for React + TypeScript components",
   "main": "dist/index.js",
   "scripts": {
-    "prebuild-storybook": "rm -rf ./public",
-    "build-storybook": "build-storybook -c .storybook -o ./public",
+    "prebuild": "npm run lint && npm test",
+    "build": "cross-env NODE_ENV=production build-storybook",
     "lint": "eslint --ext ts,tsx ./src",
     "start": "start-storybook -p 9000 --ci",
     "test": "jest"
@@ -42,6 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.3.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
